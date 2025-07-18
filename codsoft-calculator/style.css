@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+#display {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  padding: 20px;
+  margin: 5px;
+  font-size: 18px;
+  width: 60px;
+}
